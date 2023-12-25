@@ -151,6 +151,9 @@ class TMDb(object):
             self.language,
         )
 
+        if self.debug:
+            logger.info(f"url: {url}")
+
         if self.cache and self.obj_cached and call_cached and method != "POST":
             req = self.cached_request(method, url, data, self.proxies)
         else:
