@@ -22,9 +22,6 @@
 
 - 创建后请根据 [配置说明](https://github.com/NAStool/nas-tools#%E9%85%8D%E7%BD%AE) 及该文件本身的注释，修改`config/config.yaml`，修改好后再重启容器，最后访问`http://<ip>:<web_port>`。
 
-```
-docker buildx build -t name1shard/nas-tools:v3.2.4 .\docker\
-```
 
 **docker cli**
 
